@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import { Content, Container } from './styles'
-import Modal from 'react-modal';
 
 import logoIMG from '../../assets/images/logo.svg'
 
@@ -8,7 +6,7 @@ interface HeaderProps {
   onOpenNewTransactionModal: () => void;
 }
 
-export function Header({onOpenNewTransactionModal}: HeaderProps) {
+export function Header({ onOpenNewTransactionModal }: HeaderProps) {
   return (
     <Container>
       <Content>

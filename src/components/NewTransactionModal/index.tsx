@@ -1,4 +1,4 @@
-import { FormEvent, useState, useContext } from "react";
+import { FormEvent, useState } from "react";
 import Modal from "react-modal"
 import closeIMG from '../../assets/images/close.svg';
 import incomeIMG from '../../assets/images/income.svg';
